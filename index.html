@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tiles!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+<!--     <h1>Tiles!</h1> -->
+    <h1 class= "center">
+      <span style="color: black">S</span>
+      <span style="color: white">I</span>
+      <span style="color: black">T</span>
+      <span style="color: white">E</span>
+      <span style="color: black">!</span>
+    </h1>
+    
+    <p class= "center" style="color: white">
+      Welcome to the game! To play, repeat back the pattern on the tiles!
+    </p>
+    
+    <p id ="timer" class= "center" style="color: white">Time Remaining: 10 seconds</p>
+
+
+    <button id ="startBtn" onclick="startGane()" class= "center">
+      Start
+    </button>
+    <button id ="stopBtn" class="hidden center" onclick="stopGame()" >
+      Stop
+    </button>
+    
+    <div id ="gameButtonArea" style= "padding: 15px">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
+    </div>
+
+  
+
+  </body>
+</html>

@@ -1,0 +1,125 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em; 
+  /*   margin: auto; */
+  padding: 10px;
+  text-align: center;
+  margin:15% auto;
+  
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2858&q=80") no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  vertical-align: middle;
+
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+  margin: auto;
+  color: white;
+  font-size: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#countdown {
+  font-size: 25px;
+  margin: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#startBtn {
+  background: #00E676
+}
+#stopBtn {
+  background: red
+}
+#button1 {
+  background: white;
+}
+#button2 {
+  background: black;
+}
+#button3 {
+  background: white;
+}
+#button4 {
+  background: black;
+}
+#button5 {
+  background: white;
+}
+#button6 {
+  background: black;
+}
+#button7 {
+  background: white;
+}
+#button8 {
+  background: black;
+}
+
+#button1:active,
+#button1.lit {
+  background: green;
+}
+#button2:active,
+#button2.lit {
+  background: blue;
+}
+#button3:active,
+#button3.lit {
+  background: red;
+}
+#button4:active,
+#button4.lit {
+  background: yellow;
+}
+#button5:active,
+#button5.lit {
+  background: #FF6300;
+}
+#button6:active,
+#button6.lit {
+  background: #A4009C;
+}
+#button7:active,
+#button7.lit {
+  background: #1D544A;
+}
+#button8:active,
+#button8.lit {
+  background: #535455;
+}
