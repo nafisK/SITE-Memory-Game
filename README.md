@@ -4,9 +4,10 @@
 
 Submitted by: **Nafis Khan**
 
-Time spent: **12** hours spent in total
+Time spent: **6** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/tiles-codepath?path=script.js%3A89%3A18
+Link to project: https://glitch.com/edit/#!/memory-game-site
+Link to project-preview: https://memory-game-site.glitch.me
 
 ## Required Functionality
 
@@ -34,12 +35,17 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] Added background from Unsplash.com
+- [X] Used Material Design Red and Green Color for start and stop button
+- [X] Made the title and tiles look similar to piano tiles
+- [X] Used Major notes as the tile sounds
+- [X] Tried to use Guitar Chords as sounds (Could not implement)
+- [X] Tried to implement confetti when player won (Could not implement)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](walkthrough.gif)
+<img src="walkthrough.gif" width="500px" height="500px"/>
 
 
 ## Reflection Questions
