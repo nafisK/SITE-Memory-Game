@@ -45,7 +45,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="walkthrough.gif" width="500px" height="500px"/>
+
+<img src="walkthrough.gif" width="auto" height="500pc"/>
 
 
 ## Reflection Questions
